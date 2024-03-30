@@ -7,11 +7,7 @@ export const metadata: Metadata = {
 };
 
 const AboutPage = () => {
-  return (
-    <div className="min-h-screen">
-      <span className="text-7xl">About Page</span>
-    </div>
-  );
+  return <span className="text-7xl">About Page</span>;
 };
 
 export default AboutPage;

@@ -1,11 +1,11 @@
-export default function GeneralLayout({
+export default function PublicLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <h1>Hello Root Layout General</h1>
+    <div className="min-h-screen flex flex-col items-center py-24">
+      <h1>Hola Mundo</h1>
       {children}
     </div>
   );

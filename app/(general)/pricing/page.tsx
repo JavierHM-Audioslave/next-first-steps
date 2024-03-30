@@ -7,11 +7,7 @@ export const metadata: Metadata = {
 };
 
 const PricingPage = () => {
-  return (
-    <div className="min-h-screen">
-      <span className="text-7xl">Pricing Page</span>
-    </div>
-  );
+  return <span className="text-7xl">Pricing Page</span>;
 };
 
 export default PricingPage;
