@@ -1,21 +1,22 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav className="flex justify-between bg-blue-800 bg-opacity-30 p-2 m-2 rounded">
       <span>
-        <a href="/">Home</a>
+        <Link href="/">Home</Link>
       </span>
       <span>
-        <a className="mr-2" href="/about">
+        <Link className="mr-2" href="/about">
           About
-        </a>
-        <a className="mr-2" href="/contact">
+        </Link>
+        <Link className="mr-2" href="/contact">
           Contact
-        </a>
-        <a className="mr-2" href="/pricing">
+        </Link>
+        <Link className="mr-2" href="/pricing">
           Pricing
-        </a>
+        </Link>
       </span>
     </nav>
   );
