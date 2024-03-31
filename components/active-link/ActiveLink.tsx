@@ -12,7 +12,6 @@ export type NavItemType = {
 
 export const ActiveLink = ({ path, text }: NavItemType) => {
   const pathName = usePathname();
-  console.log(pathName);
 
   return (
     <Link
